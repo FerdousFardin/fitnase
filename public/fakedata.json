@@ -1,0 +1,44 @@
+[
+  {
+    "id": "6334684484c37c157190b83f",
+    "picture": "https://barbend.com/wp-content/uploads/2021/05/Inverted-Row-Step-2.jpg",
+    "name": "Inverted row",
+    "description": "The inverted row is an exercise that both beginners and advanced exercisers can do to strengthen their upper back. It also improves scapular retraction, which can help prepare you to do pull-ups if your goal is to master them.",
+    "time-to-perform": 30
+  },
+  {
+    "id": "63346844809d18fecb7ece62",
+    "picture": "https://static.india.com/wp-content/uploads/2017/04/Squats1.jpg?impolicy=Medium_Widthonly&w=700&h=467%20widht=",
+    "name": "Squats",
+    "description": "The traditional squat is an important exercise because it targets the muscles in your lower body, such as your glutes, quads, hamstrings, abdominals -- even your upper body. You can load the squat using dumbbells, barbells, kettlebells and sandbags.",
+    "time-to-perform": 45
+  },
+  {
+    "id": "63346844fdac6951c466774f",
+    "picture": "https://experiencelife.lifetime.life/wp-content/uploads/2021/03/Bulgarian-Split-Squat.jpg",
+    "name": "Split squats",
+    "description": "The split squat is a single leg exercise that forces you to use your core for balance. It targets your glutes, quads and hamstrings. There are also several ways to do them to make them easier or harder, depending on your fitness level. ",
+    "time-to-perform": 40
+  },
+  {
+    "id": "63346844022b75780836ad22",
+    "picture": "https://mirafit.co.uk/wp/wp-content/uploads/2018/04/fitness-expert-performs-a-standard-deadlift-using-mirafit-gym-equipment-1024x683.jpg",
+    "name": "Deadlifts",
+    "description": "The deadlift is a compound exercise that has you lifting heavy weight off the floor by bending at the hips and standing back up. There are plenty of variations to choose from whether you're a beginner or a seasoned weightlifter. Some variations include the kettlebell deadlift, Romanian deadlift, conventional deadlift, stiff-legged deadlift, sumo deadlift and trap bar (or hex bar) deadlift. ",
+    "time-to-perform": 60
+  },
+  {
+    "id": "6334684466da05ac113fbc25",
+    "picture": "https://i.insider.com/58f68bfaf40dae9a748b4cf2?width=800&format=jpeg&auto=webp",
+    "name": "Push-ups",
+    "description": "The push-up is beneficial for building up your upper body strength and targets your chest, triceps, back and shoulders. Although it's a well-known exercise, it's also one that is commonly done incorrectly -- even by experienced exercisers. ",
+    "time-to-perform": 120
+  },
+  {
+    "id": "6334684483b9bced9d7b1241",
+    "picture": "https://cdn.mos.cms.futurecdn.net/4TeCBowajZkRDRuj46dACX-1200-80.jpg.webp",
+    "name": "Pallof press",
+    "description": "The Pallof press is an anti-rotation movement that limits the rotation of your spine. It's considered a core strength training exercise that can be easily done using a cable machine or resistance band.There are variations that allow you to efficiently workout your core.",
+    "time-to-perform": 30
+  }
+]
