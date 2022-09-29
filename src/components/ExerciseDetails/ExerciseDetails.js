@@ -17,7 +17,7 @@ export const ExerciseDetails = ({ totalTime, breakTime }) => {
       <div className="card w-4/5 mx-auto bg-[#1f1f1f] shadow-xl my-5">
         <div className="card-body py-3 px-4">
           <p>
-            <strong>Break Time:</strong> {breakTime} seconds
+            <strong>Break Time:</strong> {breakTime || 0} seconds
           </p>
         </div>
       </div>
