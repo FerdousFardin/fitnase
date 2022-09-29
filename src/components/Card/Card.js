@@ -21,10 +21,10 @@ export const Card = ({
           <strong>Time Required:</strong> {timeToPerform} seconds (per 12/15
           sets)
         </p>
-        <div className="card-actions">
+        <div className="card-actions w-full justify-center">
           <button
             onClick={() => addToList(timeToPerform)}
-            className="btn border-4 transition ease duration-200 border-[#ff5e17] bg-[#ff5e17] hover:text-[#ff5e17] hover:border-[#ff5e17] hover:bg-[#2a2a2a] "
+            className="btn w-10/12 border-4 transition ease duration-200 border-[#ff5e17] bg-[#ff5e17] hover:text-[#ff5e17] hover:border-[#ff5e17] hover:bg-[#2a2a2a] "
           >
             Add To List
           </button>
