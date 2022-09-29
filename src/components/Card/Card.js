@@ -6,12 +6,16 @@ export const Card = ({
   addToList,
 }) => {
   return (
-    <div className="card w-96 bg-[#2a2a2a] shadow-xl">
-      <figure className="px-3 pt-3">
-        <img src={picture} alt="" className="rounded-xl h-52 w-full" />
+    <div className="card  w-fit lg:w-96 bg-[#2a2a2a] shadow-xl">
+      <figure className="md:px-1 md:pt-1 lg:px-3 lg:pt-3">
+        <img
+          src={picture}
+          alt=""
+          className="rounded-xl h-fit md:h-36 lg:h-52 w-full"
+        />
       </figure>
       <div className="card-body items-center text-left">
-        <h2 className="card-title font-normal text-4xl tracking-wide custom-font">
+        <h2 className="card-title font-normal text-2xl lg:text-4xl lg:tracking-wide custom-font">
           {name}
         </h2>
         <p>

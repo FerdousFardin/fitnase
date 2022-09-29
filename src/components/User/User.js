@@ -3,15 +3,15 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const User = () => {
   return (
-    <div>
-      <div className="mx-5 my-5 flex gap-2">
+    <div className="hidden md:block">
+      <div className="mx-5 my-5 flex gap-2 ">
         <img
           className="w-1/5 rounded-full"
-          src="https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+          src="https://images.unsplash.com/photo-1485206412256-701ccc5b93ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=894&q=80"
           alt=""
         />
         <div>
-          <h2>Ferdous Fardin</h2>
+          <h2 className="custom-font tracking-wider text-lg">Ferdous Fardin</h2>
           <p className="text-info opacity-60">
             <FontAwesomeIcon icon={faLocationDot} />
             <span className="mx-1">Moulvibazar, Sylhet</span>

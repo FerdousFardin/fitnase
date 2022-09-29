@@ -1,3 +1,11 @@
 .custom-cols {
   grid-template-columns: 4fr 1fr;
 }
+.custom-font {
+  font-family: "Oswald", sans-serif;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .custom-cols {
+    grid-template-columns: 2fr 1fr;
+  }
+}

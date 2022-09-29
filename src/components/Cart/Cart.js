@@ -19,7 +19,7 @@ export const Cart = ({ selectedItem }) => {
   };
   return (
     <>
-      <div className="sticky top-0 h-[100vh] bg-[#262626] text-white">
+      <div className="sticky bottom-[-1rem] sm:bottom-0 md:top-0 h-fit pb-5 lg:pb-0 md:min-h-[100vh] bg-[#262626] text-white rounded">
         <User></User>
         <AddBreak breakRcver={breakRcver}></AddBreak>
         <ExerciseDetails

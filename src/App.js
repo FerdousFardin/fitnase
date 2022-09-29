@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <main className="grid custom-cols">
+      <main className="md:grid  custom-cols">
         <Shop addToList={addToList}></Shop>
         <Cart selectedItem={selectedItem}></Cart>
       </main>

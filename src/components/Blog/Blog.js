@@ -3,7 +3,7 @@ import React from "react";
 export const Blog = () => {
   return (
     <footer className="min-h-[100vh] bg-[#151515] pt-2">
-      <article className="grid grid-cols-2 bg-[#2a2a2a]">
+      <article className="lg:grid lg:grid-cols-2 bg-[#2a2a2a]">
         {/* <!-- Article Image --> */}
         <a href="#" className="hover:opacity-75">
           <img
@@ -37,12 +37,15 @@ export const Blog = () => {
             use the virtual representation of it. Then the virtual DOM will try
             to find the most efficient way to update the browser’s DOM.
           </a>
-          <a href="#" className="uppercase  hover:text-gray-400">
+          <a
+            href="https://www.geeksforgeeks.org/react-js-introduction-working/"
+            className="uppercase  hover:text-gray-400"
+          >
             Continue Reading <i className="fas fa-arrow-right"></i>
           </a>
         </div>
       </article>
-      <article className="grid grid-cols-2 my-4 bg-[#2a2a2a]">
+      <article className="lg:grid lg:grid-cols-2 my-4 bg-[#2a2a2a]">
         {/* <!-- Article Image --> */}
         <a href="#" className="hover:opacity-75">
           <img
@@ -157,12 +160,12 @@ export const Blog = () => {
           </a>
         </div>
       </article>
-      <article className="grid grid-cols-2 bg-[#2a2a2a]">
+      <article className="lg:grid lg:grid-cols-2 bg-[#2a2a2a]">
         {/* <!-- Article Image --> */}
         <a href="#" className="hover:opacity-75">
           <img
             className=""
-            src="https://source.unsplash.com/collection/1346951/1000x500?sig=2"
+            src="https://daveceddia.com/images/useEffect-hook.png"
             alt=""
           />
         </a>

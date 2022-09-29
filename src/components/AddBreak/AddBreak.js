@@ -4,7 +4,9 @@ import "./AddBreak.css";
 export const AddBreak = ({ breakRcver }) => {
   return (
     <div>
-      <h1 className="my-3 text-center text-3xl custom-font">Add A Break</h1>
+      <h1 className="mb-4 pt-2 lg:my-3 text-center text-3xl custom-font">
+        Add A Break
+      </h1>
       <div className="card w-11/12 mx-auto bg-[#1f1f1f] shadow-xl">
         <div className="card-actions justify-end mx-auto py-4">
           <button
