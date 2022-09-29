@@ -9,7 +9,7 @@ export const Header = () => {
         src={logo}
         alt=""
       />
-      <div className="hidden text-base custom-font sm:flex gap-5 mx-5">
+      <div className="hidden text-base md:text-2xl custom-font md:flex gap-5 mx-5">
         <a
           className="text-white transition ease duration-200 hover:text-[#ff5e19]"
           href="/home"
