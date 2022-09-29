@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { addToDb } from "../../utilities/utility";
+import { ActivityCompleted } from "../ActivityCompleted/ActivityCompleted";
 import { AddBreak } from "../AddBreak/AddBreak";
 import { ExerciseDetails } from "../ExerciseDetails/ExerciseDetails";
 import { User } from "../User/User";
@@ -24,6 +25,7 @@ export const Cart = ({ selectedItem }) => {
         breakTime={breakTime}
         totalTime={totalTime}
       ></ExerciseDetails>
+      <ActivityCompleted></ActivityCompleted>
     </div>
   );
 };
