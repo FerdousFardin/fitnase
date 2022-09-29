@@ -18,14 +18,17 @@ export const Cart = ({ selectedItem }) => {
     addToDb(breakTimeInt);
   };
   return (
-    <div className="sticky top-0 h-[100vh] bg-[#262626] text-white">
-      <User></User>
-      <AddBreak breakRcver={breakRcver}></AddBreak>
-      <ExerciseDetails
-        breakTime={breakTime}
-        totalTime={totalTime}
-      ></ExerciseDetails>
-      <ActivityCompleted></ActivityCompleted>
-    </div>
+    <>
+      <div className="sticky top-0 h-[100vh] bg-[#262626] text-white">
+        <User></User>
+        <AddBreak breakRcver={breakRcver}></AddBreak>
+        <ExerciseDetails
+          breakTime={breakTime}
+          totalTime={totalTime}
+        ></ExerciseDetails>
+        <ActivityCompleted></ActivityCompleted>
+      </div>
+      {/* <hr className=" border-[#262626]" /> */}
+    </>
   );
 };

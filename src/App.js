@@ -4,6 +4,7 @@ import { Header } from "./components/Header/Header";
 import { Shop } from "./components/Shop/Shop";
 import { Cart } from "./components/Cart/Cart";
 import { useState } from "react";
+import { Blog } from "./components/Blog/Blog";
 
 function App() {
   const [selectedItem, setselectedItem] = useState([]);
@@ -12,10 +13,11 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <div className="grid custom-cols">
+      <main className="grid custom-cols">
         <Shop addToList={addToList}></Shop>
         <Cart selectedItem={selectedItem}></Cart>
-      </div>
+      </main>
+      <Blog></Blog>
     </div>
   );
 }
