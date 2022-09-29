@@ -1,8 +1,9 @@
 import React from "react";
+import "./Card.css";
 
 export const Card = ({
   excercise: { picture, name, description, timeToPerform },
-  addToCart,
+  addToList,
 }) => {
   return (
     <div className="card w-96 bg-[#2a2a2a] shadow-xl">
@@ -10,16 +11,22 @@ export const Card = ({
         <img src={picture} alt="" className="rounded-xl h-52 w-full" />
       </figure>
       <div className="card-body items-center text-left">
-        <h2 className="card-title text-left text-2xl">{name}</h2>
+        <h2 className="card-title font-normal text-4xl tracking-wide custom-font">
+          {name}
+        </h2>
         <p>
           {description.length > 150 ? description.slice(0, 150) : description}
         </p>
+        <p>
+          <strong>Time Required:</strong> {timeToPerform} seconds (per 12/15
+          sets)
+        </p>
         <div className="card-actions">
           <button
-            onClick={() => addToCart(timeToPerform)}
-            className="btn border-4 border-[#ff5e17] bg-[#ff5e17] hover:text-[#ff5e17] hover:border-[#ff5e17] hover:bg-[#2a2a2a]"
+            onClick={() => addToList(timeToPerform)}
+            className="btn border-4 transition ease duration-200 border-[#ff5e17] bg-[#ff5e17] hover:text-[#ff5e17] hover:border-[#ff5e17] hover:bg-[#2a2a2a] "
           >
-            Add To Cart
+            Add To List
           </button>
         </div>
       </div>

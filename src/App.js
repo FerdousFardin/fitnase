@@ -6,16 +6,15 @@ import { Cart } from "./components/Cart/Cart";
 import { useState } from "react";
 
 function App() {
-  const [selectedCart, setSelectedCart] = useState([]);
-  const addToCart = (selectedProduct) => {
-    setSelectedCart([...selectedCart, selectedProduct]);
-  };
+  const [selectedItem, setselectedItem] = useState([]);
+  const addToList = (selectedProduct) =>
+    setselectedItem([...selectedItem, selectedProduct]);
   return (
     <div>
       <Header></Header>
       <div className="grid custom-cols">
-        <Shop addToCart={addToCart}></Shop>
-        <Cart selectedCart={selectedCart}></Cart>
+        <Shop addToList={addToList}></Shop>
+        <Cart selectedItem={selectedItem}></Cart>
       </div>
     </div>
   );
